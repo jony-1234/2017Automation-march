@@ -100,16 +100,16 @@ public class CommonAPI {
     }
 
     public static WebDriver driver = null;
-    private String saucelabs_username = "mrahman";
-    private String browserstack_username = "syedhossain1";
-    private String saucelabs_accesskey = "ssh key";
-    private String browserstack_accesskey = "cMx99y4ir3xZQjck18Dq";
+    private String saucelabs_username = "";
+    private String browserstack_username = "mdgolamrobbani1";
+    private String saucelabs_accesskey = "";
+    private String browserstack_accesskey = "J8QVVo6YWEkkSPR4yLHQ";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
             @Optional("Windows") String os,@Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
-            String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
+            String browserVersion, @Optional("http://www.cnn.com") String url)throws IOException {
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -129,15 +129,15 @@ public class CommonAPI {
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
-            }else if(OS.equalsIgnoreCase("Win")){
+            }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
             }
             driver = new ChromeDriver();
         }else if(browserName.equalsIgnoreCase("firefox")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "..C:\\Users\\Md.Golam Robbani\\IdeaProjects\\automation-march2017\\automation-march2017\\Generic\\driver\\geckodriver");
             }else if(OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "..C:\\Users\\Md.Golam Robbani\\IdeaProjects\\automation-march2017\\automation-march2017\\Generic\\driver\\geckodriver");
             }
             driver = new FirefoxDriver();
 
@@ -150,13 +150,13 @@ public class CommonAPI {
     }
     public WebDriver getLocalGridDriver(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "..C:\\Users\\Md.Golam Robbani\\IdeaProjects\\automation-march2017\\automation-march2017\\Generic\\driver\\chromedriver.exe");
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver");
+            System.setProperty("webdriver.gecko.driver", "..C:\\Users\\Md.Golam Robbani\\IdeaProjects\\automation-march2017\\automation-march2017\\Generic\\driver\\geckodriver");
             driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "../Generic/browser-driver/IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "../Generic/driver/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;

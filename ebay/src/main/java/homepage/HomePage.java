@@ -10,16 +10,16 @@ import org.openqa.selenium.support.How;
  */
 public class HomePage extends CommonAPI {
 
-    @FindBy(how = How.CSS, using = "#w0-container li:nth-child(1)")
+    @FindBy(how = How.CSS, using = "#w0-container")
     public static WebElement sectionHome;
 
-    @FindBy(how = How.CSS, using = "#w0-container li:nth-child(2)")
+    @FindBy(how = How.CSS, using = "#w0-container")
     public static WebElement sectionFollowing;
 
-    @FindBy(how = How.CSS, using = "#w0-container li:nth-child(3)")
+    @FindBy(how = How.CSS, using = "#w0-container")
     public static WebElement sectionMotors;
 
-    @FindBy(how = How.CSS, using = "#w0-container li:nth-child(4)")
+    @FindBy(how = How.CSS, using = "#w0-container")
     public static WebElement sectionFashion;
 
     @FindBy(how = How.CSS, using = ".hl-cat-nav__js-tab")

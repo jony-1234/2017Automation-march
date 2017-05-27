@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="browserstack">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ebay/ebay-project" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebay/target/classes/homepage/HomePage.class" afterPath="$PROJECT_DIR$/ebay/target/classes/homepage/HomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebay/target/classes/homepage/SearchPage.class" afterPath="$PROJECT_DIR$/ebay/target/classes/homepage/SearchPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/main/java/search/ItemsToBeSearched.java" afterPath="$PROJECT_DIR$/Amazon/src/main/java/search/ItemsToBeSearched.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" afterPath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebay/src/main/java/homepage/HomePage.java" afterPath="$PROJECT_DIR$/ebay/src/main/java/homepage/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebay/src/main/resources/EbayTestRunner.xml" afterPath="$PROJECT_DIR$/ebay/src/main/resources/EbayTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebay/target/classes/EbayTestRunner.xml" afterPath="$PROJECT_DIR$/ebay/target/classes/EbayTestRunner.xml" />
-    </list>
+    <list default="true" id="88d8ee8a-8e16-4c3f-ab0c-1245ca465f2f" name="Default" comment="browserstack" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -1188,7 +1178,7 @@
       <workItem from="1495772201498" duration="3807000" />
       <workItem from="1495896454392" duration="6000" />
       <workItem from="1495897986060" duration="420000" />
-      <workItem from="1495899326749" duration="1764000" />
+      <workItem from="1495899326749" duration="1921000" />
     </task>
     <task id="LOCAL-00001" summary="browserstack">
       <created>1494790830934</created>
@@ -1233,10 +1223,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74884000" />
+    <option name="totallyTimeSpent" value="75041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="0" width="2564" height="1293" extended-state="1" />
+    <frame x="32" y="0" width="2564" height="1293" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

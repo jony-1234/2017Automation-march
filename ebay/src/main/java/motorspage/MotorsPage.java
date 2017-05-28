@@ -19,12 +19,6 @@ public class MotorsPage extends CommonAPI {
     @FindBy(how = How.CSS, using = "#inv-lnav")
     public static WebElement sectionBeInspired;
 
-
-
-
-
-
-
     public static WebElement getSectionMotors() {
         return sectionMotors;
     }
@@ -40,12 +34,6 @@ public class MotorsPage extends CommonAPI {
     public static WebElement getSectionBeInspired() {
         return sectionBeInspired;
     }
-
-
-
-
-
-
 
     public void goToSectionMotors() {getSectionMotors().click();}
     public void goToSectionMyvehicles() {getSectionMotors().click();getSectionMyvehicles().click();}
